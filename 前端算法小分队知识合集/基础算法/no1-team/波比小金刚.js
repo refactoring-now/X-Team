@@ -1,4 +1,4 @@
-const gakki = (arr, count, sum) => {
+export const gakki = (arr, count, sum) => {
 
   const n = num => {
     let count = 0
@@ -29,3 +29,35 @@ const gakki = (arr, count, sum) => {
 }
 
 gakki([1, 2, 3, 4, 5], 2, 6)
+
+// 增加缓存的版本
+export const gakkiWithCache = (arr, count, sum) => {
+  const n = num => {
+    let count = 0, cache = {}
+    if(cache[num]) return cache[num]
+    while(num){
+      count++
+      num &= (num - 1)
+    }
+    return cache[num] = count
+  }
+  
+  let len = arr.length, bit = 1 << len, res = []
+  for(let i = 1; i < bit; i++){
+    if(n(i) === count){
+      let s = 0, temp = []
+      for(let j = 0; j < len; j++){
+        if((i & 1 << j) !== 0) {
+          s += arr[j]
+          temp.push(arr[j])
+        }
+      }
+
+      if(s === sum){
+        res.push(temp)
+      }
+    }
+  }
+
+  return res
+}
