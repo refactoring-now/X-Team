@@ -26,14 +26,13 @@
 
 ## FP小分队输出博客show
 
-- [待完成](#FP小分队输出博客show) - 待完成
+- [Ramda.js中的柯里化实现](https://juejin.im/post/5c7a01ff6fb9a049b41d2e1e?utm_source=wechat&from=groupmessage&isappinstalled=0) -- **花名：Ninja (fp小分队队长)**
 
 [↑ 返回目录 ↑](#目录)
 
 
 ## 除小分队输出外的经典文章合集
 
-- [Ramda.js中的柯里化实现](https://juejin.im/post/5c7a01ff6fb9a049b41d2e1e?utm_source=wechat&from=groupmessage&isappinstalled=0)
 - [Fantasy Land Specification](https://github.com/fantasyland/fantasy-land)
 - [Functional Lenses, How Do They Work](https://medium.com/@dtipson/functional-lenses-d1aba9e52254)
 - [函数式编程介绍和优缺点](https://juejin.im/post/5c19c3ffe51d45059b632eef)
