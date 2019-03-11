@@ -53,6 +53,8 @@
 
 也可以关注我们的微信公众号，然后回复 卡哇伊 三个字，会有敲级可爱的入群方式哦。
 
+![](https://user-gold-cdn.xitu.io/2019/3/11/1696b5f0406bae9a?w=2800&h=800&f=png&s=445010)
+
 ### License
 
 所有文章采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
